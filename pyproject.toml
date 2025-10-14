@@ -5,7 +5,7 @@ description = "Multi-agent workflow configuration for additive manufacturing all
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "additive-manufacturing>=0.0.13",
-    "out-workspace>=0.0.9",
-    "thermo-calc>=0.0.9",
+    "additive-manufacturing>=0.0.14",
+    "thermo-calc>=0.0.10",
+    "workspace-agent>=0.0.2",
 ]
