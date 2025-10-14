@@ -2,7 +2,7 @@
 Multi-agent workflow configuration for additive manufacturing alloy discovery via Model Context Protocol (MCP)
 
 <p align="center">
-  <img src="./figures/main.png" alt="Main Figure" width="50%">
+  <img src="./figures/main.png" alt="Main Figure" width="100%">
 </p>
 
 ## Getting Started
