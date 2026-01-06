@@ -1,5 +1,5 @@
-# Agentic-Additive-Manufacturing-Alloy-Discovery
-Multi-agent workflow configuration for additive manufacturing alloy discovery via Model Context Protocol (MCP)
+# Agentic-Additive-Manufacturing-Alloy-Evaluation
+Multi-agent workflow configuration for additive manufacturing alloy evaluation via Model Context Protocol (MCP)
 
 <p align="center">
   <img src="./images/figures/main.png" alt="Main Figure" width="80%">
