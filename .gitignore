@@ -207,6 +207,7 @@ marimo/_lsp/
 __marimo__/
 
 .claude/
+.vscode/
 cache/
 out/
 out*/
@@ -214,3 +215,5 @@ out*/
 !out_known_alloys
 !out_material_property_search
 !out_unknown_alloys
+
+workspaces/

@@ -1,11 +1,26 @@
 [project]
-name = "agentic-additive-manufacturing-alloy-discovery"
+name = "agentic-additive-manufacturing-alloy-evaluation"
 version = "0.0.0"
-description = "Multi-agent workflow configuration for additive manufacturing alloy discovery via Model Context Protocol (MCP)"
+description = "Multi-agent workflow configuration for additive manufacturing alloy evaluation via Model Context Protocol (MCP)"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "additive-manufacturing>=0.0.14",
-    "thermo-calc>=0.0.10",
-    "workspace-agent>=0.0.2",
+    "additive-manufacturing>=0.0.19",
+    "thermo-calc>=0.0.12",
+    "workspace-agent>=0.1.9",
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "pre-commit>=4.3.0",
+]
+manuscript = [
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
 ]
