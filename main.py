@@ -13,7 +13,7 @@ from tc.cli.install import install_command
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Install MCP Servers for AM Alloy Discovery"
+        description="Install MCP Servers for AM Alloy Evaluation"
     )
     _ = parser.add_argument(
         "client",
