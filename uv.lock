@@ -38,7 +38,7 @@ wheels = [
 ]
 
 [[package]]
-name = "agentic-additive-manufacturing-alloy-discovery"
+name = "agentic-additive-manufacturing-alloy-evaluation"
 version = "0.0.0"
 source = { virtual = "." }
 dependencies = [
