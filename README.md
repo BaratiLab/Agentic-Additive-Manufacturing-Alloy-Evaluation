@@ -37,7 +37,7 @@ Multi-agent workflow configuration for additive manufacturing alloy evaluation v
 <table>
   <tr>
     <td align="center" width="100">
-      <img src="./images/icons/additive-manufacturing.svg" alt="Additive Manufacturing" height="75">
+      <img src="./images/icons/additive-manufacturing.svg" alt="Additive Manufacturing" width="100%">
     </td>
     <td>
       <a href="https://github.com/ppak10/additive-manufacturing"><b>Additive Manufacturing</b></a><br>
@@ -47,7 +47,7 @@ Multi-agent workflow configuration for additive manufacturing alloy evaluation v
   </tr>
   <tr>
     <td align="center" width="100">
-      <img src="./images/icons/thermo-calc.svg" alt="Thermo-Calc" height="75">
+      <img src="./images/icons/thermo-calc.svg" alt="Thermo-Calc" width="100%">
     </td>
     <td>
       <a href="https://github.com/ppak10/thermo-calc"><b>Thermo-Calc</b></a><br>
@@ -57,7 +57,7 @@ Multi-agent workflow configuration for additive manufacturing alloy evaluation v
   </tr>
   <tr>
     <td align="center" width="100">
-      <img src="./images/icons/workspace-agent.svg" alt="Workspace Agent" height="75">
+      <img src="./images/icons/workspace-agent.svg" alt="Workspace Agent" width="100%">
     </td>
     <td>
       <a href="https://github.com/ppak10/workspace-agent"><b>Workspace Agent</b></a><br>
