@@ -14,8 +14,8 @@ Multi-agent workflow configuration for additive manufacturing alloy evaluation v
     ```bash
     uv sync
     ```
-1. Install LLM client such as [Claude Code](https://docs.anthropic.com/en/docs/claude-code/setup), [Codex](https://developers.openai.com/codex/cli/) or, [Gemini CLI](https://github.com/google-gemini/gemini-cli)
-5. Install MCP tools and Agents to Client (i.e. [`vscode`](), [`claude-code`](https://docs.anthropic.com/en/docs/claude-code/setup), [`codex`](https://developers.openai.com/codex/cli/), or[`gemini-cli`](https://github.com/google-gemini/gemini-cli))
+1. Install LLM client such as [Claude Desktop](https://claude.ai/download), [Claude Code](https://docs.anthropic.com/en/docs/claude-code/setup), [Codex](https://developers.openai.com/codex/cli/), or [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+5. Install MCP tools and Agents to Client (i.e. [`claude-desktop`](https://claude.ai/download), [`vscode`](), [`claude-code`](https://docs.anthropic.com/en/docs/claude-code/setup), [`codex`](https://developers.openai.com/codex/cli/), or [`gemini-cli`](https://github.com/google-gemini/gemini-cli))
     ```
     uv run main.py <client>
     ```
@@ -34,73 +34,35 @@ Multi-agent workflow configuration for additive manufacturing alloy evaluation v
 3. (Optional) Toggle off all other tools for better performance (i.e. "Built-In", "Python", "Jupyter", etc.)
 
 ## MCP Servers
-<div style="display: grid; gap: 1em;">
-  <div style="display: flex; flex: col; gap: 1em; justify-items: center;">
-    <img
-      src="./images/icons/additive-manufacturing.svg"
-      alt="Additive Manufacturing"
-      height="75px"
-    >
-    <div>
-      <div>
-        <a href="https://github.com/ppak10/additive-manufacturing">
-          <h3 style="margin: 0px">
-            Additive Manufacturing
-          </h3>
-        </a>
-      </div>
-      <div>
-        <code>uv add additive-manufacturing</code>
-      </div>
-      <div>
-        <code>pip install additive-manufacturing</code>
-      </div>
-    </div>
-  </div>
-
-  <div style="display: flex; flex: col; gap: 1em; justify-items: center">
-    <img
-      src="./images/icons/thermo-calc.svg"
-      alt="Thermo-Calc"
-      height="75px"
-    >
-    <div>
-      <div>
-        <a href="https://github.com/ppak10/thermo-calc">
-          <h3 style="margin: 0px">
-            Thermo-Calc 
-          </h3>
-        </a>
-      </div>
-      <div>
-        <code>uv add thermo-calc</code>
-      </div>
-      <div>
-        <code>pip install thermo-calc</code>
-      </div>
-    </div>
-  </div>
-
-  <div style="display: flex; flex: col; gap: 1em; justify-items: center">
-    <img
-      src="./images/icons/workspace-agent.svg"
-      alt="Workspace Agent"
-      height="75px"
-    >
-    <div>
-      <div>
-        <a href="https://github.com/ppak10/workspace-agent">
-          <h3 style="margin: 0px">
-            Workspace Agent
-          </h3>
-        </a>
-      </div>
-      <div>
-        <code>uv add workspace-agent</code>
-      </div>
-      <div>
-        <code>pip install workspace-agent</code>
-      </div>
-    </div>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center" width="100">
+      <img src="./images/icons/additive-manufacturing.svg" alt="Additive Manufacturing" height="75">
+    </td>
+    <td>
+      <a href="https://github.com/ppak10/additive-manufacturing"><b>Additive Manufacturing</b></a><br>
+      <code>uv add additive-manufacturing</code><br>
+      <code>pip install additive-manufacturing</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="./images/icons/thermo-calc.svg" alt="Thermo-Calc" height="75">
+    </td>
+    <td>
+      <a href="https://github.com/ppak10/thermo-calc"><b>Thermo-Calc</b></a><br>
+      <code>uv add thermo-calc</code><br>
+      <code>pip install thermo-calc</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="./images/icons/workspace-agent.svg" alt="Workspace Agent" height="75">
+    </td>
+    <td>
+      <a href="https://github.com/ppak10/workspace-agent"><b>Workspace Agent</b></a><br>
+      <code>uv add workspace-agent</code><br>
+      <code>pip install workspace-agent</code>
+    </td>
+  </tr>
+</table>
